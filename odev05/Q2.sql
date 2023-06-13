@@ -1,0 +1,6 @@
+SELECT * FROM film 
+WHERE title LIKE '%n'
+ORDER BY length ASC 
+OFFSET 1
+LIMIT 5;
+
